@@ -7,7 +7,7 @@
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
   
-  <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="jb4.2-3.4"/>
+  <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-10.2"/>
   <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-10.1"/>
   <project path="hardware/qcom/media-legacy" name="LegacyXperia/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2"/>
   <project path="hardware/qcom/display-legacy" name="LegacyXperia/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2"/>
