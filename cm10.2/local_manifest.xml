@@ -9,6 +9,7 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_bionic" />
   
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-10.2"/>
   <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-10.1"/>
@@ -19,5 +20,6 @@
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-10.2"/>
   <project path="frameworks/base" name="doadin/android_frameworks_base" remote="github" revision="cm-10.2"/>
   <project path="frameworks/av" name="doadin/android_frameworks_av" remote="github" revision="cm-10.2"/>
+  <project path="bionic" name="doadin/android_bionic" remote="github" revision="cm-10.2"/>
   
 </manifest>
