@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="bb" fetch="https://bitbucket.org/" />
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -10,6 +11,8 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
   
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-10.2"/>
   <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-10.1"/>
@@ -21,5 +24,7 @@
   <project path="frameworks/base" name="doadin/android_frameworks_base" remote="github" revision="cm-10.2"/>
   <project path="frameworks/av" name="doadin/android_frameworks_av" remote="github" revision="cm-10.2"/>
   <project path="bionic" name="doadin/android_bionic" remote="github" revision="cm-10.2"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="smartguy044/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="smartguy044/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" remote="bb" revision="master" />
   
 </manifest>
