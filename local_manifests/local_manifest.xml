@@ -23,9 +23,9 @@
  
   
   <!-- Hardware Qcom -->
-  <project path="hardware/qcom/media-legacy" name="LegacyXperia/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2"/>
-  <project path="hardware/qcom/display-legacy" name="LegacyXperia/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2"/>
-  <project path="hardware/qcom/audio-caf" name="Davidteri/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2"/>
+  <project path="hardware/qcom/media-legacy" name="Doadin/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2"/>
+  <project path="hardware/qcom/display-legacy" name="Doadin/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2"/>
+  <project path="hardware/qcom/audio-caf" name="Doadin/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2"/>
   
   <!-- Frame Work Pretty Static Across All Builds -->
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-10.2"/>
