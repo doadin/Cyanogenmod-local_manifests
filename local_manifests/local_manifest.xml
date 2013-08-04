@@ -8,7 +8,6 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
   
@@ -29,7 +28,6 @@
   <project path="frameworks/av" name="doadin/android_frameworks_av" remote="github" revision="cm-10.2"/>
   
   <!-- Temp Waiting Official Commits -->
-  <project path="frameworks/opt/telephony" name="doadin/android_frameworks_opt_telephony" remote="github" revision="cm-10.2"/>
   
   <!-- Temp?Hopefully(would be nice to be able to use linaro and such, Thanks Smartguy) -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="doadin/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="github" revision="master" />
@@ -42,6 +40,9 @@
   
   <remove-project name="CyanogenMod/android_bionic" />
   <project path="bionic" name="doadin/android_bionic" remote="github" revision="cm-10.2"/>
+  
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="doadin/android_frameworks_opt_telephony" remote="github" revision="cm-10.2"/>
   
   -->
   
