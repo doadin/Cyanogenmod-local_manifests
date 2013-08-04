@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="bb" fetch="https://bitbucket.org/" />
   
   <remote  name="github"
            fetch=".."
@@ -36,8 +34,8 @@
   <project path="frameworks/opt/telephony" name="doadin/android_frameworks_opt_telephony" remote="github" revision="cm-10.2"/>
   
   <!-- Temp?Hopefully(would be nice to be able to use linaro and such, Thanks Smartguy) -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="smartguy044/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="smartguy044/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="Doadin/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="Doadin/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" remote="github" revision="master" />
   
   <!-- REPORTED NO LONGER NEEDED
   
