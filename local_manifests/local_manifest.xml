@@ -26,6 +26,7 @@
   <project path="frameworks/av" name="doadin/android_frameworks_av" remote="github" revision="cm-10.2"/>
   
   <!-- Temp Waiting Official Commits -->
+  <!-- http://review.cyanogenmod.org/#/c/47259/ -->
   
   <!-- Temp?Hopefully(would be nice to be able to use linaro and such, Thanks Smartguy) -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="doadin/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="github" revision="cm-10.2" />
