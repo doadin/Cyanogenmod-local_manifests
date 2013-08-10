@@ -7,7 +7,6 @@
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-  <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
   <remove-project name="CyanogenMod/android_packages_apps_Focal" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
@@ -25,7 +24,6 @@
   
   <!-- Frame Work Pretty Static Across All Builds -->
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-10.2"/>
-  <project path="frameworks/av" name="doadin/android_frameworks_av" remote="github" revision="cm-10.2"/>
   
   <!-- Temp Waiting Official Commits -->
   <!-- http://review.cyanogenmod.org/#/c/47259/ -->
