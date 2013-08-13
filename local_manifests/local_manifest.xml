@@ -5,6 +5,7 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remove-project name="CyanogenMod/android_dalvik" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   
@@ -20,5 +21,8 @@
   <!-- Frame Work Pretty Static Across All Builds -->
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-10.1"/>
   <project path="frameworks/base" name="doadin/android_frameworks_base" remote="github" revision="cm-10.1"/>
+  
+  <!-- Temp waiting official merge -->
+  <project path="dalvik" name="doadin/android_dalvik" remote="github" revision="cm-10.2"/>
   
 </manifest>
