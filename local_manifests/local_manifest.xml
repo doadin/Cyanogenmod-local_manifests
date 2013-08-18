@@ -8,7 +8,6 @@
   <remove-project name="CyanogenMod/android_dalvik" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-  <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
   <remove-project name="CyanogenMod/android_packages_apps_Focal" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
@@ -28,7 +27,6 @@
   
   <!-- Temp Waiting Official Commits -->
   <!-- http://review.cyanogenmod.org/#/c/47259/ -->
-  <project path="packages/apps/Gallery2" name="doadin/android_packages_apps_Gallery2" remote="github" revision="cm-10.2"/>
   <project path="packages/apps/Focal" name="doadin/android_packages_apps_Focal" remote="github" revision="cm-10.2"/>
   <project path="dalvik" name="doadin/android_dalvik" remote="github" revision="cm-10.2"/>
   
