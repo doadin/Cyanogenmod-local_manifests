@@ -14,7 +14,7 @@
   
   <!-- Device Repos -->
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-10.2"/>
-  <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-10.1"/>
+  <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-10.2"/>
   <project path="kernel/samsung/ancora_tmo" name="arco/samsung-kernel-msm7x30" remote="github" revision="cm-10.2"/> 
   
   <!-- Hardware Qcom -->
