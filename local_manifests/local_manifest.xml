@@ -8,18 +8,19 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
   
   <!-- Device Repos -->
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="jb4.2-3.4pmemion"/>
   <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-10.1pmemion"/>
-  <project path="kernel/samsung/ancora_tmo" name="doadin/samsung-kernel-msm7x30" remote="github" revision="cm-10.1_jb-2.5.5_ion_nightlies"/>
+  <project path="kernel/samsung/ancora_tmo" name="AriesVE-DevCon-TEAM/samsung-kernel-msm7x30" remote="github" revision="cm-10.1_ion_pmem_adsp"/>
   
   <!-- Hardware Qcom -->
   <!-- 
   <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1"/>
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.1"/>
   -->
-  <project path="hardware/qcom/display-legacy" name="doadin/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1pmemion"/>
+  <project path="hardware/qcom/display-legacy" name="doadin/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1_ion_nightlies"/>
   
   <!-- Frame Work Pretty Static Across All Builds -->
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-10.1"/>
