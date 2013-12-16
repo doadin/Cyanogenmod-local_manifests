@@ -9,6 +9,7 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   
   <!-- Device Repos -->
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="jb4.2-3.4pmemion"/>
@@ -20,7 +21,9 @@
   <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1"/>
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.1"/>
   -->
-  <project path="hardware/qcom/display-legacy" name="doadin/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1_ion_nightlies"/>
+  <project path="hardware/qcom/display-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1_ion_nightlies"/>
+  <project path="hardware/qcom/media-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" remote="github" revision="cm-10.1_ion_nightlies"/>
+  <project path="hardware/qcom/audio-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1"
   
   <!-- Frame Work Pretty Static Across All Builds -->
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-10.1"/>
