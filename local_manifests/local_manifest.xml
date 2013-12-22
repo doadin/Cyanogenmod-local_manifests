@@ -6,7 +6,6 @@
            review="review.cyanogenmod.org" />
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
 
   
@@ -26,7 +25,6 @@
   
   <!-- Frame Work Pretty Static Across All Builds -->
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-10.1"/>
-  <project path="frameworks/base" name="doadin/android_frameworks_base" remote="github" revision="cm-10.1"/>
   
   <!-- no longer Needed 
   <project path="dalvik" name="doadin/android_dalvik" remote="github" revision="cm-10.2"/>
