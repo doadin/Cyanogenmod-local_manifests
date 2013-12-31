@@ -18,8 +18,8 @@
   <project path="kernel/samsung/ancora_tmo" name="AriesVE-DevCon-TEAM/samsung-kernel-msm7x30" remote="github" revision="cm-11"/> 
   
   <!-- Hardware Qcom -->
-  <project path="hardware/qcom/media-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-legacy" remote="github" revision="cm-11"/>
-  <project path="hardware/qcom/display-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-legacy" remote="github" revision="cm-11"/>
+  <project path="hardware/qcom/media-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0"/>
+  <project path="hardware/qcom/display-legacy" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0"/>
   <!--
   <project path="hardware/qcom/audio-caf" name="doadin/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2"/>
   -->
