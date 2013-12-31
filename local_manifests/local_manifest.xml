@@ -31,7 +31,7 @@
   -->
   
   <!-- Frame Work Pretty Static Across All Builds -->
-  <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-11"/>
+  <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-11.0"/>
   
   <!-- Temp Waiting Official Commits -->
   <!-- http://review.cyanogenmod.org/#/c/47259/ -->
