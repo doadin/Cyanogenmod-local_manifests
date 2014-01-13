@@ -16,7 +16,7 @@
   
   <!-- Device Repos -->
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-10.2_ion_pmem"/>
-  <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-10.2_ion_pmem"/>
+  <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-10.1_ion_pmem"/>
   <project path="kernel/samsung/ancora_tmo" name="AriesVE-DevCon-TEAM/samsung-kernel-msm7x30" remote="github" revision="cm-10.2_ion_pmem_adsp"/> 
   
   <!-- Hardware Qcom -->
