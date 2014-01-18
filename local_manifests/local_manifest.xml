@@ -8,6 +8,7 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <!--
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
@@ -26,9 +27,7 @@
   -->
   <project path="hardware/qcom/media-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0"/>
   <project path="hardware/qcom/display-caf" name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0"/>
-  <!--
-  <project path="hardware/qcom/audio-caf" name="doadin/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2"/>
-  -->
+  <project path="hardware/qcom/audio-caf" name="arco/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0"/>
   
   <!-- Frame Work Pretty Static Across All Builds -->
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-11.0"/>
