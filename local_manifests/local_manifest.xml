@@ -11,10 +11,6 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project name="CyanogenMod/android_vendor_cm />
 
-  <!--
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
-  -->
   
   <!-- Device Repos -->
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-11_ion_pmem"/>
