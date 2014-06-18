@@ -18,10 +18,7 @@
   <project path="kernel/samsung/ancora_tmo" name="arco/samsung-kernel-msm7x30" remote="github" revision="cm-11.0_ion"/> 
   
   <!-- Hardware Qcom -->
-  <!-- 
-  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2"/>
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2"/>
-  -->
+
   <project path="hardware/qcom/media-caf" name="doadin/android_hardware_qcom_media-caf" remote="github" revision="cm-11.0"/>
   <project path="hardware/qcom/display-caf" name="doadin/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0"/>
   <project path="hardware/qcom/audio-caf" name="doadin/android_hardware_qcom_audio-caf" remote="github" revision="cm-11.0"/>
@@ -33,10 +30,6 @@
   <!-- Temp Waiting Official Commits -->
   <!-- http://review.cyanogenmod.org/#/c/47259/ -->
   
-  <!-- Temp?Hopefully(would be nice to be able to use linaro and such, Thanks Smartguy) 
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="doadin/prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="github" revision="cm-10.2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="doadin/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" remote="github" revision="cm-10.2" />
-  -->
   
   <!-- REPORTED NO LONGER NEEDED
   
