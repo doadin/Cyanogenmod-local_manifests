@@ -10,6 +10,7 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project name="CyanogenMod/android_vendor_cm />
+
   <!--
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
