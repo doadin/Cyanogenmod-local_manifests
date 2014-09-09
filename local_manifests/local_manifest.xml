@@ -29,7 +29,7 @@
   <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-11.0"/>
   <project path="vendor/cm" name="doadin/android_vendor_cm" remote="github" revision="cm-11.0"/>
 
-  <project path="packages/apps" name="doadin/android_packages_apps_Torch" remote="github" revision="cm-11.0"/>
+  <project path="packages/apps/Torch" name="doadin/android_packages_apps_Torch" remote="github" revision="cm-11.0"/>
   
   <!-- Temp Waiting Official Commits -->
   <!-- http://review.cyanogenmod.org/#/c/47259/ -->
