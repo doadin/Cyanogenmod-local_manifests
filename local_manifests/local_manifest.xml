@@ -33,6 +33,10 @@
   <project path="packages/apps/Torch" name="doadin/android_packages_apps_Torch" remote="github" revision="cm-11.0"/>
   <project path="packages/apps/Camera2" name="doadin/android_packages_apps_Camera2" remote="github" revision="cm-11.0"/>
   
+  <!-- Recoveries -->
+  <!-- TWRP -->
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4"/>
+  
   <!-- Temp Waiting Official Commits -->
   <!-- http://review.cyanogenmod.org/#/c/47259/ -->
   
