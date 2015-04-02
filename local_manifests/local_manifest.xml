@@ -21,22 +21,22 @@
   <project path="kernel/samsung/ancora_tmo" name="doadin/samsung-kernel-msm7x30" remote="github" revision="cm-12.0"/> 
   
   <!-- Hardware Qcom -->
-  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="github" revision="cm-12.0" />
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="github" revision="cm-12.1" />
 
-  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm7x30" remote="github" revision="cm-12.0" />
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm7x30" remote="github" revision="cm-12.1" />
 
-  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm7x30" remote="github" revision="cm-12.0" />
+  <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm7x30" remote="github" revision="cm-12.1" />
 
   <!-- Frame Work Pretty Static Across All Builds -->
-  <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-12.0"/>
+  <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-12.1"/>
 
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-5.0" />
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-5.1" />
 
-  <project name="AriesVE-DevCon-TEAM/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_system_vold" path="system/vold" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_build" path="build" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_bionic" path="bionic" remote="github" revision="cm-12.0" />
+  <project name="doadin/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-12.1" />
+  <project name="doadin/android_system_vold" path="system/vold" remote="github" revision="cm-12.1" />
+  <project name="doadin/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.1" />
+  <project name="doadin/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1" />
+  <project name="doadin/android_build" path="build" remote="github" revision="cm-12.1" />
+  <project name="doadin/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
   
 </manifest>
