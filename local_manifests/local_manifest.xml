@@ -32,7 +32,6 @@
 
   <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-5.1" />
 
-  <project name="doadin/android_build" path="build" remote="github" revision="cm-12.1" />
   <project name="doadin/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
   
 </manifest>
