@@ -17,7 +17,7 @@
   
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-12_ion_pmem"/>
   <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-12_ion_pmem"/>
-  <project path="kernel/samsung/ancora_tmo" name="AriesVE-DevCon-TEAM/samsung-kernel-msm7x30" remote="github" revision="cm-12.1"/> 
+  <project path="kernel/samsung/ancora_tmo" name="doadin/samsung-kernel-msm7x30" remote="github" revision="cm-12.0"/> 
   
   <!-- Hardware Qcom -->
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="github" revision="cm-12.1" />
