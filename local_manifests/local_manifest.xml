@@ -6,10 +6,6 @@
            review="review.cyanogenmod.org" />
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_system_vold" />
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_bionic" />
 
   
@@ -31,10 +27,6 @@
 
   <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-5.1" />
 
-  <project name="AriesVE-DevCon-TEAM/android_system_vold" path="system/vold" remote="github" revision="cm-12.1" />
-  <project name="AriesVE-DevCon-TEAM/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.1" />
-  <project name="AriesVE-DevCon-TEAM/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.1" />
-  <project name="AriesVE-DevCon-TEAM/android_build" path="build" remote="github" revision="cm-12.1" />
   <project name="AriesVE-DevCon-TEAM/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
   
 </manifest>
