@@ -6,6 +6,7 @@
            review="review.cyanogenmod.org" />
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
+  <remove-project name="CyanogenMod/android_bionic" />
   
   <!-- Device Repos -->
   
