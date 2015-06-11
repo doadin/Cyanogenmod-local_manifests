@@ -6,19 +6,12 @@
            review="review.cyanogenmod.org" />
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
-  <remove-project name="CyanogenMod/android_vendor_cm" />
-  <remove-project name="CyanogenMod/android_system_vold" />
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <remove-project name="CyanogenMod/android_build" />
-  <remove-project name="CyanogenMod/android_bionic" />
-
   
   <!-- Device Repos -->
   
   <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-12_ion_pmem"/>
   <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-12_ion_pmem"/>
-  <project path="kernel/samsung/ancora_tmo" name="doadin/samsung-kernel-msm7x30" remote="github" revision="cm-12.0"/> 
+  <project path="kernel/samsung/ancora_tmo" name="doadin/samsung-kernel-msm7x30" remote="github" revision="cm-12.0_libsensors"/> 
   
   <!-- Hardware Qcom -->
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="github" revision="cm-12.0" />
@@ -32,11 +25,6 @@
 
   <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-5.0" />
 
-  <project name="AriesVE-DevCon-TEAM/android_vendor_cm" path="vendor/cm" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_system_vold" path="system/vold" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.0" />
-  <project name="AriesVE-DevCon-TEAM/android_build" path="build" remote="github" revision="cm-12.0" />
   <project name="AriesVE-DevCon-TEAM/android_bionic" path="bionic" remote="github" revision="cm-12.0" />
   
 </manifest>
