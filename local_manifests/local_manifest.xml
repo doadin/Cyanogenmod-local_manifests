@@ -5,20 +5,12 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
-  <remote  name="bitbucket"
-           fetch="https://bitbucket.org/Cyanogenmod" />
-
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
-
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media-caf" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
-  <remove-project name="CyanogenMod/android_external_svox" />
 
   
   <!-- Device Repos -->
@@ -38,7 +30,7 @@
   <project path="vendor/cm" name="doadin/android_vendor_cm" remote="github" revision="cm-11.0"/>
 
   <project path="packages/apps/Torch" name="arco/android_packages_apps_Torch" remote="github" revision="cm-11.0"/>
-
+  
   <!-- Recoveries -->
   <!-- TWRP -->
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4"/>
@@ -59,7 +51,5 @@
   <project path="frameworks/opt/telephony" name="doadin/android_frameworks_opt_telephony" remote="github" revision="cm-10.2"/>
   
   -->
-
-  <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-4.4.2_r2.0.1" />
   
 </manifest>
