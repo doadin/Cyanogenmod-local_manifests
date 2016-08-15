@@ -11,22 +11,24 @@
   
   <!-- Device Repos -->
   
-  <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-12_ion_pmem"/>
-  <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-12_ion_pmem"/>
-  <project path="kernel/samsung/ancora_tmo" name="doadin/samsung-kernel-msm7x30" remote="github" revision="cm-12.0"/> 
+  <project path="device/samsung/ancora_tmo" name="doadin/android_device_samsung_ancora_tmo" remote="github" revision="cm-13.0_ion_pmem"/>
+  <project path="vendor/samsung/ancora_tmo" name="doadin/android_vendor_samsung_ancora_tmo" remote="github" revision="cm-13.0_ion_pmem"/>
+  <project path="kernel/samsung/ancora_tmo" name="doadin/samsung-kernel-msm7x30" remote="github" revision="cm-13.0"/> 
   
   <!-- Hardware Qcom -->
+  <!-- 
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf/msm7x30" remote="github" revision="cm-12.1" />
 
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf/msm7x30" remote="github" revision="cm-12.1" />
 
   <project name="AriesVE-DevCon-TEAM/android_hardware_qcom_media-caf" path="hardware/qcom/media-caf/msm7x30" remote="github" revision="cm-12.1" />
+   -->
 
   <!-- Frame Work Pretty Static Across All Builds -->
-  <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-12.1"/>
+  <project path="frameworks/native" name="doadin/android_frameworks_native" remote="github" revision="cm-13.0"/>
 
-  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-5.1" />
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-6.0" />
 
-  <project name="AriesVE-DevCon-TEAM/android_bionic" path="bionic" remote="github" revision="cm-12.1" />
+  <project name="doadin/android_bionic" path="bionic" remote="github" revision="cm-13.0" />
   
 </manifest>
