@@ -7,6 +7,7 @@
 
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
 
   
   <!-- Device Repos -->
@@ -30,5 +31,6 @@
   <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-6.0" />
 
   <project name="doadin/android_bionic" path="bionic" remote="github" revision="cm-13.0" />
+  <project name="doadin/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="cm-13.0" />
   
 </manifest>
